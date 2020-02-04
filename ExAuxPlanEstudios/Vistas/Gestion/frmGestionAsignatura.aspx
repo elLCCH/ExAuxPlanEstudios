@@ -1,4 +1,4 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="Index.aspx.cs" MasterPageFile="~/Vistas/Main.master" Inherits="ExAuxPlanEstudios.Vistas.Index" %>
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="frmGestionAsignatura.aspx.cs" MasterPageFile="~/Vistas/Main.master" Inherits="ExAuxPlanEstudios.Vistas.Gestion.frmGestionAsignatura" %>
 
 <asp:Content ID="cont1" ContentPlaceHolderID="partMain" runat="server"> 
 
@@ -9,11 +9,10 @@
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Bootsrtap Free Admin Template - SIMINTA | Admin Dashboad Template</title>
-    
+    <title></title>
 </head>
+<body>    
 
-<body>
     
         <!--  wrapper -->
     <div id="wrapper">
@@ -54,7 +53,7 @@
 
     </div>
 </body>
+
 </html>
-     
 </asp:Content>
     

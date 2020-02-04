@@ -7,27 +7,18 @@
 // </generado automáticamente>
 //------------------------------------------------------------------------------
 
-namespace ExAuxPlanEstudios.Vistas {
+namespace ExAuxPlanEstudios.Vistas.Crear {
     
     
-    public partial class Site1 {
+    public partial class frmInformeMemoria {
         
         /// <summary>
-        /// Control head.
+        /// Control form1.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.ContentPlaceHolder head;
-        
-        /// <summary>
-        /// Control partMain.
-        /// </summary>
-        /// <remarks>
-        /// Campo generado automáticamente.
-        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.ContentPlaceHolder partMain;
+        protected global::System.Web.UI.HtmlControls.HtmlForm form1;
     }
 }

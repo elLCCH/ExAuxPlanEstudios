@@ -222,50 +222,16 @@
     <Content Include="Scripts\WebForms\WebUIValidation.js" />
     <Content Include="Site.Master" />
     <Content Include="ViewSwitcher.ascx" />
-    <Content Include="Vistas\assets\css\main-style.css" />
-    <Content Include="Vistas\assets\css\style.css" />
-    <Content Include="Vistas\assets\font-awesome\css\font-awesome.css" />
-    <Content Include="Vistas\assets\font-awesome\css\font-awesome.min.css" />
-    <Content Include="Vistas\assets\font-awesome\fonts\fontawesome-webfont.svg" />
-    <Content Include="Vistas\assets\fonts\glyphicons-halflings-regular.svg" />
-    <Content Include="Vistas\assets\img\logo.png" />
-    <Content Include="Vistas\assets\img\user.jpg" />
-    <Content Include="Vistas\assets\plugins\bootstrap\bootstrap.css" />
-    <Content Include="Vistas\assets\plugins\bootstrap\bootstrap.js" />
-    <Content Include="Vistas\assets\plugins\bootstrap\bootstrap.min.js" />
-    <Content Include="Vistas\assets\plugins\dataTables\dataTables.bootstrap.css" />
-    <Content Include="Vistas\assets\plugins\dataTables\dataTables.bootstrap.js" />
-    <Content Include="Vistas\assets\plugins\dataTables\jquery.dataTables.js" />
-    <Content Include="Vistas\assets\plugins\flot\excanvas.min.js" />
-    <Content Include="Vistas\assets\plugins\flot\jquery.flot.js" />
-    <Content Include="Vistas\assets\plugins\flot\jquery.flot.pie.js" />
-    <Content Include="Vistas\assets\plugins\flot\jquery.flot.resize.js" />
-    <Content Include="Vistas\assets\plugins\flot\jquery.flot.tooltip.min.js" />
-    <Content Include="Vistas\assets\plugins\jquery-1.10.2.js" />
-    <Content Include="Vistas\assets\plugins\metisMenu\jquery.metisMenu.js" />
-    <Content Include="Vistas\assets\plugins\morris\morris-0.4.3.min.css" />
-    <Content Include="Vistas\assets\plugins\morris\morris.js" />
-    <Content Include="Vistas\assets\plugins\morris\raphael-2.1.0.min.js" />
-    <Content Include="Vistas\assets\plugins\pace\pace-theme-big-counter.css" />
-    <Content Include="Vistas\assets\plugins\pace\pace.js" />
-    <Content Include="Vistas\assets\plugins\social-buttons\social-buttons.css" />
-    <Content Include="Vistas\assets\plugins\timeline\timeline.css" />
-    <Content Include="Vistas\assets\scripts\dashboard-demo.js" />
-    <Content Include="Vistas\assets\scripts\flot-demo.js" />
-    <Content Include="Vistas\assets\scripts\morris-demo.js" />
-    <Content Include="Vistas\assets\scripts\siminta.js" />
+    <Content Include="Vistas\Crear\frmInformeMemoria.aspx" />
+    <Content Include="Vistas\Crear\frmPlanTrabajo.aspx" />
+    <Content Include="Vistas\Gestion\frmGestionAdministrador.aspx" />
+    <Content Include="Vistas\Gestion\frmGestionAsignatura.aspx" />
+    <Content Include="Vistas\Gestion\frmGestionDocente.aspx" />
     <Content Include="Vistas\Index.aspx" />
     <Content Include="Vistas\WebForm1.aspx" />
     <Content Include="Web.config" />
     <Content Include="Bundle.config" />
     <Content Include="Site.Mobile.Master" />
-    <Content Include="Vistas\assets\font-awesome\fonts\fontawesome-webfont.eot" />
-    <Content Include="Vistas\assets\font-awesome\fonts\fontawesome-webfont.ttf" />
-    <Content Include="Vistas\assets\font-awesome\fonts\fontawesome-webfont.woff" />
-    <Content Include="Vistas\assets\font-awesome\fonts\FontAwesome.otf" />
-    <Content Include="Vistas\assets\fonts\glyphicons-halflings-regular.eot" />
-    <Content Include="Vistas\assets\fonts\glyphicons-halflings-regular.ttf" />
-    <Content Include="Vistas\assets\fonts\glyphicons-halflings-regular.woff" />
     <Content Include="Vistas\Main.master" />
   </ItemGroup>
   <ItemGroup>
@@ -316,6 +282,41 @@
     </Compile>
     <Compile Include="ViewSwitcher.ascx.designer.cs">
       <DependentUpon>ViewSwitcher.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Vistas\Crear\frmInformeMemoria.aspx.cs">
+      <DependentUpon>frmInformeMemoria.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Vistas\Crear\frmInformeMemoria.aspx.designer.cs">
+      <DependentUpon>frmInformeMemoria.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Vistas\Crear\frmPlanTrabajo.aspx.cs">
+      <DependentUpon>frmPlanTrabajo.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Vistas\Crear\frmPlanTrabajo.aspx.designer.cs">
+      <DependentUpon>frmPlanTrabajo.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Vistas\Gestion\frmGestionAdministrador.aspx.cs">
+      <DependentUpon>frmGestionAdministrador.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Vistas\Gestion\frmGestionAdministrador.aspx.designer.cs">
+      <DependentUpon>frmGestionAdministrador.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Vistas\Gestion\frmGestionAsignatura.aspx.cs">
+      <DependentUpon>frmGestionAsignatura.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Vistas\Gestion\frmGestionAsignatura.aspx.designer.cs">
+      <DependentUpon>frmGestionAsignatura.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Vistas\Gestion\frmGestionDocente.aspx.cs">
+      <DependentUpon>frmGestionDocente.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Vistas\Gestion\frmGestionDocente.aspx.designer.cs">
+      <DependentUpon>frmGestionDocente.aspx</DependentUpon>
     </Compile>
     <Compile Include="Vistas\Index.aspx.cs">
       <DependentUpon>Index.aspx</DependentUpon>
