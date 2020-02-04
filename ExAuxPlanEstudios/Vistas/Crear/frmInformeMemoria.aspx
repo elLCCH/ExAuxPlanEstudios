@@ -64,7 +64,13 @@
                                     
                         <div class="row">
                             <div class="col-lg-8">
+                                
                                 <div class="lodelfondo">
+                                <label>FECHA DE INICIO DE ACTIVIDADES ACADEMICAS:</label>
+                                <asp:TextBox ID="TextBox1" runat="server" class="form-control" placeholder="Fecha"></asp:TextBox>
+                                <label>FECHA DE CONCLUSION DE ACTIVIDADES ACADEMICAS:</label>
+                                <asp:TextBox ID="TextBox2" runat="server" class="form-control" placeholder="Fecha"></asp:TextBox>
+
                                 <%--PANEL--%>
                                     <div class="col-lg-16 ">
                                         <div class="panel panel-default">
@@ -72,19 +78,42 @@
                                                 <div class="panel-heading"> <h5><strong>UNIDAD: 
                                                     <asp:Label ID="lblNumUnidad" runat="server" Text="#"></asp:Label></strong></h5></div>
                                                 <div class="panel-body">
-                                                    <label>TITULO:</label>
-                                                    <asp:TextBox ID="txtTitulo" runat="server" class="form-control" placeholder="TITULO"></asp:TextBox>
+                                                    <label>EXAMENES:</label>
+                                                    <asp:GridView ID="gvExamenes" runat="server"></asp:GridView>
+                                                    
+                                                    <label>PRACTICAS:</label>
+                                                    <asp:GridView ID="GridView1" runat="server"></asp:GridView>
 
-                                                    <label>OBJETIVOS:</label>
-                                                    <asp:TextBox ID="txtObjetivos" runat="server" class="form-control" placeholder="OBJETIVOS" TextMode="Number"></asp:TextBox>
-
-                                                    <label>ACTIVIDAD DE INVESTIGACION:</label>
-                                                    <asp:TextBox ID="txtActInvestigacion" runat="server" class="form-control" placeholder="ACTIVIDAD DE INVESTIGACION"></asp:TextBox>
-
-                                                    <label>ACTIVIDAD DE INTERACION SOCIAL:</label>
-                                                    <asp:TextBox ID="txtActIntSocial" runat="server" class="form-control" placeholder="INTERACION SOCIAL"></asp:TextBox>
-
+                                                    <label>PROYECTOS:</label>
+                                                    <asp:GridView ID="GridView2" runat="server"></asp:GridView>
                                                 </div>
+                                                <div class="panel-body">
+                                                    <h5>OTRAS ACTIVIDADES DOCENTES:</h5>
+                                                    <h6>a. Participaciones Tribunales:</h6>
+                                                    <label>EXAMENES DE COMPETENCIA:</label>
+                                                    <asp:GridView ID="GridView3" runat="server"></asp:GridView>
+                                                    
+                                                    <label>EXAMENES DE GRADO:</label>
+                                                    <asp:GridView ID="GridView4" runat="server"></asp:GridView>
+
+                                                    <label>TESIS PROYECTO DE GRADO:</label>
+                                                    <asp:GridView ID="GridView5" runat="server"></asp:GridView>
+                                                    <%--B--%>
+                                                    <h6>b. Asesoramiento:</h6>
+                                                    <label>PROYECTO DE GRADO:</label>
+                                                    <asp:GridView ID="GridView6" runat="server"></asp:GridView>
+                                                    
+                                                    <label>TESIS DE GRADO:</label>
+                                                    <asp:GridView ID="GridView7" runat="server"></asp:GridView>
+
+                                                    
+                                                    <h6>c. Tareas encomendadas por autoridades ejecutivas u organos de gobierno:</h6>
+                                                    <asp:GridView ID="GridView9" runat="server"></asp:GridView>
+                                                    
+                                                    <h6>d. Docencia en programas de postgrado:</h6>
+                                                    <asp:GridView ID="GridView8" runat="server"></asp:GridView>
+                                                </div>
+
                                                 <div class="panel-footer">
                                                     <%--PARA ALGUNA ALERTA U ERROR--%>
                                                     <%--<div class="alert alert-success">
@@ -105,37 +134,8 @@
                                     
                                 <%--METODOLOGIA--%>
                                 <%--PANEL--%>
-                                <label>FECHA DE INICIO DE ACTIVIDADES ACADEMICAS:</label>
-                                <asp:TextBox ID="TextBox1" runat="server" class="form-control" placeholder="Fecha"></asp:TextBox>
-                                <label>FECHA DE CONCLUSION DE ACTIVIDADES ACADEMICAS:</label>
-                                <asp:TextBox ID="TextBox2" runat="server" class="form-control" placeholder="Fecha"></asp:TextBox>
-
-                                    <div class="col-lg-16 ">
-                                        <div class="panel panel-default">
-
-                                                
-
-                                            <div class="panel-heading"> <h4 style="text-align:center"><strong>METODOLOGIA</strong></h4></div>
-                                            <div class="panel-body">
-                                                <asp:CheckBox ID="cboxExpMagistrales" runat="server" class="form-control" Text="Exposiciones Magistrales" />
-                                                <asp:CheckBox ID="cboxDemostraciones" runat="server" class="form-control" Text="Demostraciones" />
-                                                <asp:CheckBox ID="cbDebate" runat="server" class="form-control" Text="Debate" />
-                                                <asp:CheckBox ID="cbDialogo" runat="server" class="form-control" Text="Dialogo" />
-                                                <asp:CheckBox ID="cbDinamicaGrupos" runat="server" class="form-control" Text="Dinamica de Grupos" />
-                                                <label>Otros:</label>
-                                                <asp:TextBox ID="txtOtros" runat="server" class="form-control" placeholder="Otros"></asp:TextBox>
-
-                                                
-                                            <div class="panel-footer">
-                                                <%--PARA ALGUNA ALERTA U ERROR--%>
-                                                <%--<div class="alert alert-success">
-                                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. <a href="#" class="alert-link">Alert Link</a>.
-                                                </div>--%>
-                                                    
-                                            </div>
-                                            </div>
-                                        </div>
-                                    </div>
+                                
+                                    
                             </div><%--ACA TERMINA EL DIV DE LA OTRA PARTE--%>
                                 
                                 <div class="form-group flotarPanel">
