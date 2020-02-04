@@ -14,44 +14,6 @@
 <body>    
 
     
-        <!--  wrapper -->
-    <div id="wrapper">
-        
-            
-            
-    <%--PARTE DERECHA------------------------------------------------------------------%>
-        <div id="page-wrapper">
-            <form id="form1" runat="server">
-        
-                        <!--  ESTE ES EL CUADRITO DE ARRIBA DE LA PARTE DERECHA--------------------------------------------------------------------------->
-
-                        <div class="row">
-                            <!-- Welcome -->
-                            <div class="col-lg-12">
-                                <div class="alert alert-info">
-                                    
-                                </div>
-                            </div>
-                            <!--end  Welcome -->
-                        </div>
-
-                        <%--ESTO ES LO Q ESTA ABAJO DEL CUADRITO--%>
-            
-                        <div class="row">
-                            <div class="col-lg-8">
-                                ESTE ES EL ESPACIO
-                            </div>
-
-                        </div>
-
-
-    
-            </form>
-
-        </div>
-    <!-- end page-wrapper -->
-
-    </div>
 </body>
 
 </html>
