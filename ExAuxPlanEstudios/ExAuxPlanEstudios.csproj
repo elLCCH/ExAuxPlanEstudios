@@ -191,6 +191,17 @@
     <Content Include="assets\fonts\glyphicons-halflings-regular.eot" />
     <Content Include="assets\fonts\glyphicons-halflings-regular.ttf" />
     <Content Include="assets\fonts\glyphicons-halflings-regular.woff" />
+    <Content Include="Data\dbControlAct.xsc">
+      <DependentUpon>dbControlAct.xsd</DependentUpon>
+    </Content>
+    <None Include="Data\dbControlAct.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dbControlAct.Designer.cs</LastGenOutput>
+    </None>
+    <Content Include="Data\dbControlAct.xss">
+      <DependentUpon>dbControlAct.xsd</DependentUpon>
+    </Content>
     <None Include="Scripts\jquery-3.3.1.intellisense.js" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
@@ -250,6 +261,11 @@
     </Compile>
     <Compile Include="Contact.aspx.designer.cs">
       <DependentUpon>Contact.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Data\dbControlAct.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dbControlAct.xsd</DependentUpon>
     </Compile>
     <Compile Include="Default.aspx.cs">
       <DependentUpon>Default.aspx</DependentUpon>

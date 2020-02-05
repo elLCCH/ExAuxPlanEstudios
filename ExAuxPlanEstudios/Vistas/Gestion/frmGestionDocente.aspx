@@ -39,7 +39,31 @@
             
                         <div class="row">
                             <div class="col-lg-8">
-                                ESTE ES EL ESPACIO
+                                
+                                    <%--PANEL--%>
+                                        <div class="col-lg-16 ">
+                                            <div class="panel panel-default">
+                                                <div class="panel-heading"> <h4 style="text-align:center"><strong>INTRODUZCA CI Y TIPO DE DOCUMENTO</strong></h4></div>
+                                                <div class="panel-body">
+                                                    
+                                                    <label>CI DOCENTE:</label>
+                                                    <asp:DropDownList ID="cmbTipo" runat="server"></asp:DropDownList>
+                                                    <asp:TextBox ID="txtCiDoc" runat="server" class="form-control" placeholder="CI DOCENTE"></asp:TextBox>
+                                                    <div class="" style="padding-top:15PX;">
+                                                        <asp:Button ID="btnSiguiente" runat="server" class=" btn btn-success" Text="VER DOCUMENTACION" />
+                                                        <%--<asp:Button ID="btnCancelarAcceso" runat="server" class="btn btn-danger" Text="CANCELAR" />--%>
+                                                    </div>
+                                                    <asp:GridView ID="gvMostrarDocumentacion" runat="server"></asp:GridView>
+                                                </div>
+                                                <div class="panel-footer">
+                                                    <%--PARA ALGUNA ALERTA U ERROR--%>
+                                                    <%--<div class="alert alert-success">
+                                                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. <a href="#" class="alert-link">Alert Link</a>.
+                                                    </div>--%>
+                                                    
+                                                </div>
+                                            </div>
+                                        </div>
                             </div>
 
                         </div>
